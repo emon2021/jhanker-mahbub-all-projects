@@ -9,12 +9,14 @@
 .carousel-caption {
     color: rgb(0, 0, 0);
 }
-.btn_mn{
+
+.btn_mn {
     background-color: black;
     padding: 10px 24px;
     font-size: 20px;
     transition: 0.2s linear;
 }
+
 .caption_cz {
     top: 100px;
     left: 0;
@@ -22,10 +24,69 @@
     box-sizing: border-box;
     text-align: left;
 }
+
 button.btn.btn-dark.btn_mn:hover {
     background: white;
     border: 2px solid black;
     color: #000000;
     font-weight: 500;
-    box-shadow: 3px 3px 5px 3px #d3d3d3b3;
 }
+
+.box_sizing {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 50px 25px 25px 25px;
+    border: none;
+    box-shadow: 1px 1px 10px 5px #e5e5e5;
+}
+
+.price_tag {
+    padding: 25px 0px;
+}
+
+.title_btm {
+    margin-bottom: 100px;
+}
+
+.row_up_dn {
+    padding: 100px 0px;
+}
+
+.up_not {
+    padding-top: 0px;
+}
+
+.ct_up_dn {
+    text-align: center;
+    padding: 30px 0px 60px 0px;
+}
+
+img.card-img-top.cat_img {
+    width: 80px;
+    text-align: center;
+}
+
+.card.cat_style {
+    text-align: center;
+    width: 250px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 80px 10px 25px 10px;
+    border-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0px 0px 15px 4px #e3e3e3;
+    border: none;
+}
+
+.cat_pad_btm {
+    padding-bottom: 100px;
+}
+.card-r-btm{margin-bottom: 45px;}
+.cat_alignment {position: relative;}
+.card.cat_style.cat_left.float-start {
+    position: absolute;
+    top: 150px;
+}
+.r-cat-img{width: 100%;}
