@@ -4,6 +4,8 @@
 /*Default css*/
 img {width: 100%;}
 .s-pd-btm {padding: 0px 0px 50px 0px;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
 
 /*navigation area*/
 .navbar-collapse {flex-grow: 0;}
@@ -137,3 +139,20 @@ img.block_icon {
         font-weight: 400;
 }
 /*===Testimonial End===*/
+#footer{
+    padding: 50px 0 0 0;
+    background: #282531;
+    color: #CDCDCD;
+    font-family: 'Poppins',sans-serif;
+}
+.f_list>li>a{color: white; text-align: left;}
+.f_text,.f_list>li>a{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    font-family: 'Poppins',sans-serif;
+}
+.f_title{
+    font-weight: 400;
+    font-size: 22px;
+}
